@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="card-image">
+    <a href="/movies/<%= movie["id"] %>.html">
+      <img src="<%= movie["posters"]["original"].gsub("tmb", "ori") %>" alt="">
+    </a>
+  </div>
+  <div class="card-header">
+    <%= movie["title"] %>
+  </div>
+  <div class="card-copy">
+    <p>
+      <%= movie["synopsis"] %>
+    </p>      </div>
+  <div class="card-stats">
+    <ul>
+      <li><%= movie["ratings"]["critics_score"] %><span>Rating</span></li>
+      <li><%= movie["ratings"]["audience_score"] %><span>Audience Rating</span></li>
+    </ul>
+  </div>
+</div>

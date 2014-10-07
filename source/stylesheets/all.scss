@@ -1,0 +1,15 @@
+@import "bourbon/bourbon";
+@import "base/base";
+@import "neat/neat";
+$base-spacing: 1rem;
+
+article {
+  margin-bottom: 3rem;
+}
+
+$base-accent-color: #7f8c8d;
+
+@import "partials/card";
+@import "partials/footer";
+@import "partials/intro-text";
+@import "partials/side_image";

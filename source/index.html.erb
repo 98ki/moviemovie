@@ -1,0 +1,15 @@
+---
+title: Welcome to MovieMovie
+---
+
+
+<div class="intro-text">
+  <h2>MovieMovie</h2>
+  <h4>The Movies that are out now</h4>
+</div>
+
+<div class="cards">
+  <% non_cage_movies.each do |movie| %>
+    <%= partial 'card', locals: { movie: movie } %>
+  <% end %>
+</div>
