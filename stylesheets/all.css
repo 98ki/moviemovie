@@ -641,3 +641,10 @@ article {
     .side-image .content button:disabled {
       opacity: 0.5;
       cursor: not-allowed; }
+
+/* line 1, /Users/jwo/Projects/ironyard/day11/moviemovie/source/stylesheets/partials/_page-header.scss */
+.page-header {
+  font-size: 4rem; }
+  /* line 4, /Users/jwo/Projects/ironyard/day11/moviemovie/source/stylesheets/partials/_page-header.scss */
+  .page-header a {
+    color: #222222; }
