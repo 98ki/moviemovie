@@ -1,8 +1,8 @@
 <div class="card">
   <div class="card-image">
-    <a href="/movies/<%= movie["id"] %>.html">
+    <% link_to "movies/#{movie["id"]}.html" do %>
       <img src="<%= movie["posters"]["original"].gsub("tmb", "ori") %>" alt="">
-    </a>
+    <% end %>
   </div>
   <div class="card-header">
     <%= movie["title"] %>
